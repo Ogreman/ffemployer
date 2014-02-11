@@ -10,7 +10,7 @@ class ff_job_roll(tkinter.Tk):
 		self.initialise()
 
     # main menu. new game, load progress
-    # new game: FF1, FF3 NES, FF3 iOS, FF5 (any/melee/magic), FF12?
+    # new game: FF1, FF3 NES, FF3 iOS, FF5 (any/melee/magic), FF12, BD
 	def initialise(self):
 
 		def start_game(self, game, new_game_frame, ff3new_frame):
