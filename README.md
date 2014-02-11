@@ -5,4 +5,4 @@ Learning python and GUI dev  with a small app of little use to anyone
 
 Requirements:
 Python 3.3
-Pillow
+Pillow (any Py3.3 compatible version)
