@@ -213,7 +213,17 @@ class ff_job_roll(tkinter.Tk):
 			earthButton.grid(column=3,row=0,sticky='EW')
 
 			#
-			windButton.config(height=2, command=lambda: OnFF3WindButtonClick(windButton, fireButton, windLabel, windPicLabel, windStatsLabel, summaryText))
+			windButton.config(
+				height=2,
+				command=lambda: OnFF3WindButtonClick(
+					windButton,
+					fireButton,
+					windLabel,
+					windPicLabel,
+					windStatsLabel,
+					summaryText
+				)
+			)
 			fireButton.config(height=2, command=lambda: OnFF3FireButtonClick(fireButton, waterButton, fireLabel, firePicLabel, fireStatsLabel, summaryText))
 			waterButton.config(height=2, command=lambda: OnFF3WaterButtonClick(waterButton, earthButton, waterLabel, waterPicLabel, waterStatsLabel, summaryText))
 			earthButton.config(height=2, command=lambda: OnFF3EarthButtonClick(earthButton, earthLabel, earthPicLabel, earthStatsLabel, summaryText))
